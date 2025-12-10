@@ -1,5 +1,8 @@
 from dataclasses import dataclass
 
+# This file was used for testing and debugging purposes
+# Please look at demo.ipynb for a demo of the library.
+
 @dataclass
 class Config:
     seed: int = 42

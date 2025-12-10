@@ -2,6 +2,9 @@ from config import Config
 import numpy as np
 import nabla.nn as nn
 
+# This file was used for testing and debugging purposes
+# Please look at demo.ipynb for a demo of the library.
+
 config = Config()
 seed = config.seed
 np.random.seed(seed=seed)
